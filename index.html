@@ -9,13 +9,13 @@
 </head>
 
 <body>
+    <form>
     <div class="main">
-
         <div class="box1">
             <input type="text" id="calc" placeholder="5 + 5">
         </div>
         <div class="box2">
-            <input class="cal" type="button" value="C" onclick="location.reload()"
+            <input class="cal" type="button" value="C" onclick="clearAll()"
                 style="background-color: rgb(208, 24, 24); color:white;">
             <input class="cal" type="button" value="/" onclick="display('/')">
             <input class="cal" type="button" value="*" onclick="display('*')">
@@ -38,12 +38,9 @@
             <input class="cal" type="button" value=")" onclick="display(')')">
             <input class="cal" type="button" value="=" onclick="calculate()"
                 style="background-color:orange; border-bottom-right-radius: 10px;">
-
-
         </div>
-
-
     </div>
+    </form>
     <script src="java.js"></script>
 </body>
 
